@@ -60,7 +60,7 @@ class Decimal_To_Other {
             else{
                 binary.append(rem);
             }
-            n /= 8;
+            n /= 16;
         }
         System.out.println(binary.reverse());
     }
